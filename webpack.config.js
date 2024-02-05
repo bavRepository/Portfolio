@@ -1,6 +1,6 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const path = require('path'),
+	HtmlWebpackPlugin = require('html-webpack-plugin'),
+	MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const mode = process.env.NODE_ENV || 'development',
 	devMode = mode === 'development',
@@ -38,7 +38,7 @@ module.exports = {
 				loader: 'html-loader'
 			},
 			{
-				test: /\.(c|sa|sc)ss$/i,
+				test: /\.(sc|sa|c)ss$/i,
 				use: [
 					devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
 					'css-loader',
@@ -64,7 +64,7 @@ module.exports = {
 				}
 			},
 			{
-				test: /.\woff2?$/i,
+				test: /\.woff2?$/i,
 				type: 'asset/resource',
 				generator: {
 					filename: 'fonts/[name][ext]'

@@ -1,5 +1,6 @@
 @import 'libs/normalize';
 @import 'libs/fonts';
+@import 'libs/animate';
 
 @import 'variables/variables';
 @import 'mixins/mixins';
@@ -7,4 +8,12 @@
 
 @import 'base';
 
+@import 'blocks/divider';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/social';
+@import 'blocks/sidepanel';
 
+@import 'blocks/promo';
+@import 'media/media';

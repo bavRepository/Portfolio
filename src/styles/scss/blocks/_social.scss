@@ -1,0 +1,8 @@
+.social {
+	display: flex;
+	gap: 15px;
+	&__item {
+		width: 20px;
+		height: 20px;
+	}
+}

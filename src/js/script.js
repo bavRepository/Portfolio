@@ -1,5 +1,4 @@
+import '../index.html'
+import '../styles/scss/style.scss'
 
-
-window.addEventListener('DOMContentLoaded', function () {
-
-})
+window.addEventListener('DOMContentLoaded', function () {})

@@ -1,0 +1,21 @@
+.sidepanel {
+	z-index: 2;
+	position: fixed;
+	left: -125px;
+	top: 50%;
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	transform: rotate(-90deg);
+	&_hor {
+		transform: rotate(0deg);
+		position: static;
+		margin-top: 10px;
+		display: none;
+	}
+	.subtitle {
+		&:before {
+			display: none;
+		}
+	}
+}
