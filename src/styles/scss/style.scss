@@ -8,12 +8,26 @@
 
 @import 'base';
 
-@import 'blocks/divider';
-@import 'blocks/button';
-@import 'blocks/title';
-@import 'blocks/subtitle';
-@import 'blocks/social';
-@import 'blocks/sidepanel';
+@import 'blocks/items/divider';
+@import 'blocks/items/button';
+@import 'blocks/items/title';
+@import 'blocks/items/subtitle';
+@import 'blocks/items/social';
+@import 'blocks/items/sidepanel';
+@import 'blocks/items/circle-icon';
+@import 'blocks/items/skills-item';
+@import 'blocks/items/about-item';
+@import 'blocks/items/resume-item';
+@import 'blocks/items/rating-item';
 
+@import 'blocks/forms';
+@import 'blocks/menu';
 @import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/skills';
+@import 'blocks/portfolio';
+@import 'blocks/pricelist';
+@import 'blocks/contacts';
+
 @import 'media/media';

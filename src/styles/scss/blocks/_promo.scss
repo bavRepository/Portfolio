@@ -1,10 +1,18 @@
 .promo {
 	position: relative;
 	min-height: 100vh;
-	padding-top: 30vh;
+	padding-top: 24vh;
 	background: url('../../assets/img/Background.jpeg') no-repeat 50% / cover;
-	.subtitle {
+	&__title {
 		text-align: left;
+		max-width: 530px;
+	}
+	&__subtitle {
+		text-align: left;
+		@include circle_before;
+		&:before {
+			left: -13px;
+		}
 	}
 	&__buttons {
 		margin-top: 25px;
@@ -12,15 +20,7 @@
 		gap: 18px;
 	}
 	&__link {
-		padding: 12px 25px;
-		cursor: pointer;
-		display: flex;
-		justify-content: center;
-		color: #000000;
-		font-size: 14px;
-		font-weight: 700;
-		&_active {
-			background-color: $main-color;
-		}
+		color: #000;
+		background-color: unset;
 	}
 }

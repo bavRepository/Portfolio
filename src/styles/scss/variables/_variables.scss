@@ -1,2 +1,16 @@
 //colors
 $main-color: #ffa501;
+$second-color: #e8e4de;
+$third-color: #c4c4c400;
+
+//transition
+$all-1000-easy-out: all 1s ease-out;
+$all-500-easy-out: all 0.5s ease-out;
+$all-200-easy-out: all 0.2s ease-out;
+$all-100-easy-out: all 0.1s ease-out;
+
+//box-shadow-link
+$box-shadow-link: 2px 2px 10px #113837;
+//background-image
+$background-image-gradient-btn: linear-gradient(#87cefa 20%, #00bfff 70%);
+$background-image-gradient-btn-active: linear-gradient(45deg, #87cefa 20%, #ffa501 70%);

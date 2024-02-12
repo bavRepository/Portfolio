@@ -1,0 +1,42 @@
+.contacts {
+	padding-top: 120px;
+	&__wrapper {
+		padding: 0 35px 0 52px;
+		display: grid;
+		grid-template: minmax(600px, auto) / minmax(300px, 400px) minmax(400px, 585px);
+		justify-content: space-between;
+		gap: 20px 68px;
+	}
+	&__photo {
+		width: 100%;
+		height: 100%;
+		background: url('../../assets/img/Photo-1.jpeg') center center/cover no-repeat;
+	}
+	&__title {
+		text-align: left;
+		margin-top: 6px;
+	}
+	&__subtitle {
+		text-align: left;
+		padding-left: 14px;
+		@include circle_before;
+		&:before {
+			left: 0;
+		}
+	}
+	&__divider {
+		margin-top: 2.5px;
+		margin: 0;
+	}
+	&__text {
+		margin-top: 21.5px;
+		text-align: left;
+	}
+	.social {
+		margin-top: 20px;
+		&__item {
+			width: 30px;
+			height: 30px;
+		}
+	}
+}

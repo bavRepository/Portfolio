@@ -1,0 +1,30 @@
+.rating-item {
+	display: grid;
+	grid-template: repeat(2, minmax(30px, auto)) / 3fr 2fr;
+	&__subtitle {
+		@include circle_before;
+		&:before {
+			left: 0;
+		}
+		padding-left: 13px;
+		text-align: left;
+	}
+	&__line {
+		grid-column: 1/3;
+		grid-row: 2/3;
+		border-radius: 4px;
+		height: 14px;
+		background-color: $second-color;
+		align-self: flex-end;
+		span {
+			display: block;
+			border-radius: 4px;
+			height: 100%;
+			width: 0px;
+			background-color: $main-color;
+		}
+	}
+	&__counter {
+		justify-self: flex-end;
+	}
+}

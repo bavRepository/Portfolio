@@ -1,0 +1,54 @@
+.about {
+	padding-top: 120px;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 400px minmax(400px, 550px);
+		grid-template-rows: minmax(200px, auto) minmax(250px, auto);
+		grid-auto-rows: minmax(220px, auto);
+		gap: 40px 70px;
+	}
+	&__photo {
+		grid-row: 1/3;
+		width: 100%;
+		height: 100%;
+		background-image: url('../../assets/img/Photo-1.jpeg');
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__title,
+	&__subtitle {
+		margin-top: 6px;
+		text-align: left;
+	}
+
+	&__subtitle {
+		padding-left: 15px;
+		@include circle_before;
+		&:before {
+			left: 0;
+		}
+	}
+
+	&__divider {
+		margin: 0;
+	}
+
+	&__text {
+		margin-top: 21.5px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 21px;
+		text-align: left;
+	}
+	&__skills {
+		display: grid;
+		justify-content: space-between;
+		grid-template: minmax(100px, auto) / repeat(2, minmax(100px, 260px));
+		gap: 20px;
+		grid-auto-rows: minmax(160px, auto);
+	}
+	#img-right-fix {
+		padding-left: 20px;
+	}
+}

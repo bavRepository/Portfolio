@@ -2,7 +2,12 @@
 	display: flex;
 	gap: 15px;
 	&__item {
+		transition: $all-500-easy-out;
 		width: 20px;
 		height: 20px;
+		img {
+			height: 100%;
+			width: 100%;
+		}
 	}
 }

@@ -1,0 +1,46 @@
+.pricelist {
+	padding-top: 66px;
+	&__subtitle {
+		@include circle_before;
+		&:before {
+			left: 50%;
+			transform: translateX(calc(-50% - 33px));
+		}
+	}
+	&__divider {
+		margin-top: 23.5px;
+	}
+	&__wrapper {
+		margin-top: 60px;
+		padding: 0 50px;
+		display: grid;
+		grid-template: minmax(30px, auto) / repeat(auto-fit, minmax(290px, 373px));
+		gap: 20px;
+		justify-content: space-between;
+	}
+	.rating-item {
+		padding-left: 25px;
+		grid-template: repeat(2, minmax(20px, auto)) / 3fr 2fr;
+		gap: 0px 5px;
+		&__subtitle {
+			padding-left: 0;
+			&:before {
+				width: 15px;
+				height: 15px;
+				top: 50%;
+				left: -25px;
+				transform: translateY(-50%);
+			}
+		}
+		&__line {
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 18px;
+			text-align: left;
+			background-color: unset;
+		}
+		&__counter {
+			justify-self: flex-end;
+		}
+	}
+}

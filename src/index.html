@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<aside class="sidepanel">
-			<h2 class="subtitle">Социальные сети</h2>
+			<h2 class="subtitle sidepanel__subtitle">Social links</h2>
 			<div class="divider"></div>
 			<div class="social">
 				<div class="social__item">
@@ -22,11 +22,19 @@
 			</div>
 		</aside>
 		<section class="promo">
-			<div class="container">
-				<h2 class="subtitle">My name is Anton Barai</h2>
-				<div class="sidepanel sidepanel_hor">
-					<h2 class="subtitle">Социальные сети</h2>
-					<div class="divider"></div>
+			<div class="menu">
+				<div class="menu__block">
+					<div class="menu__close">
+						<img src="assets/icons/Close.svg" alt="close" />
+					</div>
+					<ul class="menu__list">
+						<li class="menu__link"><a href="#">ПРО МЕНЯ</a></li>
+						<li class="menu__link"><a href="#">МОЙ ОПЫТ</a></li>
+						<li class="menu__link"><a href="#">МОИ НАВЫКИ</a></li>
+						<li class="menu__link"><a href="#">МОИ РАБОТЫ</a></li>
+						<li class="menu__link"><a href="#">ПРАЙС-ЛИСТ</a></li>
+						<li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
+					</ul>
 					<div class="social">
 						<div class="social__item">
 							<a href="#" class="social__link"><img src="assets/icons/social/Github-1.svg" alt="github" /></a>
@@ -39,11 +47,336 @@
 						</div>
 					</div>
 				</div>
-				<h1 class="title title_fz48">I am web developer from Minsk</h1>
+				<div class="menu__overlay"></div>
+			</div>
+			<div class="hamburger">
+				<span></span>
+				<span class="hamburger_long"></span>
+				<span></span>
+			</div>
+			<div class="container">
+				<h2 class="subtitle promo__subtitle">My name is Anton Barai</h2>
+				<div class="sidepanel sidepanel_hor">
+					<h2 class="subtitle sidepanel__subtitle">Social links</h2>
+					<div class="divider promo__divider"></div>
+					<div class="social">
+						<div class="social__item">
+							<a href="#" class="social__link"><img src="assets/icons/social/Github-1.svg" alt="github" /></a>
+						</div>
+						<div class="social__item">
+							<a href="#" class="social__link"><img src="assets/icons/social/Instagram-2.svg" alt="instagram" /></a>
+						</div>
+						<div class="social__item">
+							<a href="#" class="social__link"><img src="assets/icons/social/Facebook-2.svg" alt="facebook" /></a>
+						</div>
+					</div>
+				</div>
+				<h1 class="title title_fz48 promo__title">I am web developer from Minsk</h1>
 
 				<div class="promo__buttons">
-					<a href="#" class="promo__link promo__link_active">Портфолио</a>
-					<a href="#" class="promo__link">Про меня</a>
+					<a href="#" class="button promo__link">Portfolio</a>
+					<a href="#" class="button promo__link">About me</a>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<div class="about__wrapper">
+					<div class="about__photo"></div>
+					<div class="about__descr">
+						<h2 class="subtitle about__subtitle">About me</h2>
+						<h2 class="title about__title">My name is Anton</h2>
+						<div class="divider divider_yellow about__divider"></div>
+						<div class="about__text">
+							I am a positive and hardworking person. I am currently looking for a position as a web applications developer. I have enough
+							experience to start working as a junior of front-end development. I strongly hope I would become a worthy member of your team!
+						</div>
+					</div>
+					<div class="about__skills">
+						<div class="about-item">
+							<div class="circle-icon">
+								<img src="assets/icons/web-dev.svg" alt="development" />
+							</div>
+							<div class="about-item__descr">
+								<div class="subtitle subtitle_fz14 about-item__subtitle">Web development</div>
+								<div class="about-item__text">
+									My skills in HTML5, CSS3, JavaScript, React allows me to develop different landing pages, corporate or business
+									applications.
+								</div>
+							</div>
+						</div>
+						<div class="about-item">
+							<div class="circle-icon" id="img-right-fix">
+								<img src="assets/icons/mobile-dev.svg" alt="development" />
+							</div>
+							<div class="about-item__descr">
+								<div class="subtitle subtitle_fz14 about-item__subtitle">Applications development</div>
+								<div class="about-item__text">Due to knowledge of React-native, I can develop applications for mobile devices.</div>
+							</div>
+						</div>
+						<div class="about-item">
+							<div class="circle-icon">
+								<img src="assets/icons/Design.svg" alt="development" />
+							</div>
+							<div class="about-item__descr">
+								<div class="subtitle subtitle_fz14 about-item__subtitle">UI/UX Design</div>
+								<div class="about-item__text">I can provide high-quality performance of the page design.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="resume">
+			<div class="container">
+				<h2 class="subtitle resume__subtitle">Experience</h2>
+				<h2 class="title resume__title">Education &nbsp; | &nbsp; Work</h2>
+				<div class="divider divider_yellow resume__divider"></div>
+				<div class="resume__wrapper">
+					<div class="resume__column">
+						<h3 class="subtitle subtitle_fz20 resume__column-subtitle">Education</h3>
+						<ul>
+							<li>
+								<div class="resume-item">
+									<div class="resume-item__head">
+										<div class="circle-icon resume-item__circle-icon"><img src="assets/icons/University.svg" alt="uni" /></div>
+										<div class="subtitle subtitle_fz14 resume-item__subtitle">BSUIR</div>
+										<div class="resume-item__location">Diploma in computer technology | Minsk (2003-2008)</div>
+									</div>
+									<div class="resume-item__body">
+										Study of computer security technologies. Transmission of information on electromagnetic waves. Design of computer
+										networks
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="resume-item">
+									<div class="resume-item__head">
+										<div class="circle-icon resume-item__circle-icon"><img src="assets/icons/Courses.svg" alt="course" /></div>
+										<div class="subtitle subtitle_fz14 resume-item__subtitle">EPAM, A1QA</div>
+										<div class="resume-item__location">Сertificate of Automated Test Developer</div>
+									</div>
+									<div class="resume-item__body">
+										DataBase testing. The main programming language is Java 8-11(maven). Addition skills is TestNg, SeleniumWD, RestAssured,
+										JavaScript, Html, Css
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="resume__column">
+						<h3 class="subtitle subtitle_fz20 resume__column-subtitle">Work experience</h3>
+						<ul>
+							<li>
+								<div class="resume-item">
+									<div class="resume-item__head">
+										<div class="circle-icon resume-item__circle-icon"><img src="assets/icons/Developer.svg" alt="developer" /></div>
+										<div class="subtitle subtitle_fz14 resume-item__subtitle">FRONT-END DEVELOPER</div>
+										<div class="resume-item__location">Freelance(2020-2022)</div>
+									</div>
+									<div class="resume-item__body">Sometimes i get random job offers. I usually work on landings or corporate pages</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="skills">
+			<div class="container">
+				<h2 class="subtitle skills__subtitle">Skills</h2>
+				<h2 class="title skills__title">Using in my work</h2>
+				<div class="divider divider_yellow skills__divider"></div>
+				<div class="skills__wrapper">
+					<div class="skills-item">
+						<img src="assets/icons/html5.svg" alt="html" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">HTML5</h2>
+						<div class="skills-item__descr">
+							Html develops the structure of your website or application, and version 5 will allow me to create a more SEO-optimized
+							structure of your product.
+						</div>
+					</div>
+					<div class="skills-item">
+						<img src="assets/icons/css3.svg" alt="css" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">CSS3</h2>
+						<div class="skills-item__descr">
+							This style language allows me to create absolutely any look for your website or application. Everything is limited only by
+							your imagination!
+						</div>
+					</div>
+					<div class="skills-item">
+						<img src="assets/icons/JS.svg" alt="javascript" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">JavaScript</h2>
+						<div class="skills-item__descr">
+							This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs, receiving data from the
+							server, and much more.
+						</div>
+					</div>
+					<div class="skills-item">
+						<img src="assets/icons/Jquery.svg" alt="jQuery" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">jQuery</h2>
+						<div class="skills-item__descr">
+							The Jquery library will speed up development. We will not integrate it into the project without the need, but the skill of
+							working with it is present
+						</div>
+					</div>
+					<div class="skills-item">
+						<img src="assets/icons/React.svg" alt="react" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">React</h2>
+						<div class="skills-item__descr">
+							This library allows you to create web applications. We create the most interactive product just for your goals
+						</div>
+					</div>
+					<div class="skills-item">
+						<img src="assets/icons/Node.js.svg" alt="nodejs" />
+						<h2 class="subtitle subtitle_fz14 skills-item__subtitle">Node.js</h2>
+						<div class="skills-item__descr">
+							This platform allows you to create a backend for your product - "brains" that are implemented by actions that the user does
+							not see.
+						</div>
+					</div>
+				</div>
+				<div class="skills__ratings">
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Website development</div>
+						<div class="rating-item__counter">100%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Application development</div>
+						<div class="rating-item__counter">85%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Work with data</div>
+						<div class="rating-item__counter">90%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Creativity</div>
+						<div class="rating-item__counter">75%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Design development</div>
+						<div class="rating-item__counter">90%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Soft skills</div>
+						<div class="rating-item__counter">100%</div>
+						<div class="rating-item__line"><span></span></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="portfolio">
+			<div class="container">
+				<h2 class="subtitle portfolio__subtitle">Portfolio</h2>
+				<h2 class="title portfolio__title">My projects</h2>
+				<div class="divider divider_yellow portfolio__divider"></div>
+				<div class="portfolio__wrapper">
+					<a href="https://bavrepository.github.io/Projects/UberNew/src/" target="_blank" class="portfolio__item">
+						<img src="assets/img/uber.jpeg" alt="uber" />
+					</a>
+					<a href="https://bavrepository.github.io/Projects/PulsometerNew/src/" target="_blank" class="portfolio__item">
+						<img src="assets/img/pulse.jpeg" alt="pulse" />
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="assets/img/bread.jpeg" alt="bread" />
+					</a>
+					<a href="#" class="portfolio__item portfolio__item_ver">
+						<img src="assets/img/plans.jpeg" alt="plans" />
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="assets/img/ipad.jpeg" alt="ipad" />
+					</a>
+					<a href="#" class="portfolio__item portfolio__item_hor">
+						<img src="assets/img/mac.jpg" alt="mac" />
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="pricelist">
+			<div class="container">
+				<h2 class="subtitle pricelist__subtitle">Price-list</h2>
+				<div class="divider divider_yellow pricelist__divider"></div>
+				<div class="pricelist__wrapper">
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Landing page</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">from $75</div>
+						<div class="rating-item__line">One-page site is for the presentation of services/goods</div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Web application</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">from $5,000</div>
+						<div class="rating-item__line">Application is inside the browser for better comfort</div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Corporate website</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">from $2,000</div>
+						<div class="rating-item__line">Website is for your business or company</div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Android/IOS application</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">from $10,000</div>
+						<div class="rating-item__line">Application for smartphone of any OS</div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Online store</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">from $1,000</div>
+						<div class="rating-item__line">The tool for your online sales</div>
+					</div>
+					<div class="rating-item">
+						<div class="subtitle subtitle_fz14 rating-item__subtitle">Design</div>
+						<div class="subtitle subtitle_fz14 rating-item__counter">Individually</div>
+						<div class="rating-item__line">Design creating for your website/application</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="container">
+				<div class="contacts__wrapper">
+					<div class="contacts__photo"></div>
+					<div class="contacts__info">
+						<h2 class="subtitle contacts__subtitle">Get in touch</h2>
+						<h2 class="title contacts__title">Contact me</h2>
+						<div class="divider divider_yellow contacts__divider"></div>
+						<div class="subtitle subtitle_fz14 contacts__text">Any convenient way for you:</div>
+						<div class="social contacts__social">
+							<div class="social__item">
+								<a href="#" class="social__link"><img src="assets/icons/social/Github-1.svg" alt="github" /></a>
+							</div>
+							<div class="social__item">
+								<a href="#" class="social__link"><img src="assets/icons/social/Instagram-2.svg" alt="instagram" /></a>
+							</div>
+							<div class="social__item">
+								<a href="#" class="social__link"><img src="assets/icons/social/Facebook-2.svg" alt="facebook" /></a>
+							</div>
+						</div>
+						<div class="subtitle subtitle_fz14 contacts__text">Or leave your details and I will contact you:</div>
+						<form action="#" class="form-contacts contacts__form">
+							<div class="form-contacts__input">
+								<input required id="name" type="text" name="name" placeholder="John" maxlength="30" />
+								<label for="name">Your name:</label>
+							</div>
+							<div class="form-contacts__input">
+								<input required id="email" type="email" name="email" maxlength="30" />
+								<label for="email">Your e-mail:</label>
+							</div>
+							<div class="form-contacts__textarea">
+								<textarea name="text" id="text" maxlength="5000"></textarea>
+								<label for="text">Your message:</label>
+							</div>
+							<div class="form-contacts__triggers">
+								<button class="button subtitle subtitle_fz14 form-contacts__button contacts__button">Send message</button>
+								<div class="form-contacts__policy">
+									<input type="checkbox" /><span>I have read and agree to the <a href="#">Privacy Policy</a></span>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>

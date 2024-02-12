@@ -1,0 +1,11 @@
+.button {
+	transition: $all-100-easy-out;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 12px 25px;
+	font-weight: 700;
+	background-image: $background-image-gradient-btn;
+	box-shadow: 2px 2px 10px #113837;
+}

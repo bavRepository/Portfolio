@@ -1,0 +1,40 @@
+.resume-item {
+	&__head {
+		padding-left: 56px;
+		position: relative;
+		&:before {
+			content: '';
+			display: block;
+			height: 1px;
+			width: 34px;
+			position: absolute;
+			top: 18px;
+			left: -34px;
+			background-color: #000;
+		}
+	}
+	&__body,
+	&__location {
+		margin-top: 12px;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 18px;
+		text-align: left;
+	}
+	&__location {
+		margin-top: 0;
+	}
+	&__subtitle {
+		text-align: left;
+	}
+	&__circle-icon {
+		padding-top: 15px;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		&::before {
+			top: 0;
+		}
+	}
+}
