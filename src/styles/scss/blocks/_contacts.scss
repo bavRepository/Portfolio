@@ -1,5 +1,5 @@
 .contacts {
-	padding-top: 120px;
+	padding: 120px 0 30px 0;
 	&__wrapper {
 		padding: 0 35px 0 52px;
 		display: grid;
@@ -10,17 +10,19 @@
 	&__photo {
 		width: 100%;
 		height: 100%;
-		background: url('../../assets/img/Photo-1.jpeg') center center/cover no-repeat;
+		background: url('../../assets/img/me-max.jpeg') center center/cover no-repeat;
 	}
 	&__title {
 		text-align: left;
 		margin-top: 6px;
 	}
 	&__subtitle {
+		padding-top: 6px;
 		text-align: left;
 		padding-left: 14px;
 		@include circle_before;
 		&:before {
+			top: 0;
 			left: 0;
 		}
 	}

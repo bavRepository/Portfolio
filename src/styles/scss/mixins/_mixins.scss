@@ -34,3 +34,9 @@
 	text-decoration: none;
 	background-image: $background-image-gradient-btn-active;
 }
+
+@mixin filter-hover {
+	z-index: 99;
+	transform: scale(1.01);
+	filter: drop-shadow(2px 2px 4px #008080) drop-shadow(-2px -2px 4px #008080) contrast(150%) brightness(50%);
+}

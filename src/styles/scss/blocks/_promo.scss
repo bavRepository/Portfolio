@@ -2,7 +2,7 @@
 	position: relative;
 	min-height: 100vh;
 	padding-top: 24vh;
-	background: url('../../assets/img/Background.jpeg') no-repeat 50% / cover;
+	background: url('../../assets/img/background-main.jpeg') no-repeat 50% / cover;
 	&__title {
 		text-align: left;
 		max-width: 530px;
@@ -22,5 +22,12 @@
 	&__link {
 		color: #000;
 		background-color: unset;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 120px;
+		height: 30px;
+		padding: 0;
+		border-radius: 4px;
 	}
 }

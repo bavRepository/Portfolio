@@ -39,8 +39,7 @@
 	.portfolio__item {
 		img {
 			&:active {
-				transform: scale(1.01);
-				filter: drop-shadow(1px 1px 7px #ffff00) drop-shadow(-1px -1px 7px #00ff00) contrast(110%) brightness(80%);
+				@include filter-hover;
 			}
 		}
 	}
@@ -98,8 +97,7 @@
 	.portfolio__item {
 		img {
 			&:hover {
-				transform: scale(1.01);
-				filter: drop-shadow(1px 1px 7px #ffff00) drop-shadow(-1px -1px 7px #00ff00) contrast(110%) brightness(80%);
+				@include filter-hover;
 			}
 		}
 	}
@@ -310,9 +308,6 @@
 
 		&__photo {
 			grid-row: unset;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
 		}
 		&__wrapper {
 			justify-content: center;
@@ -391,12 +386,12 @@
 			grid-template: 340px auto auto / 1fr;
 			gap: 30px 20px;
 		}
-		&__photo {
-			grid-row: 1/3;
-			width: 100%;
-			height: 100%;
-			background: url('../../assets/img/Photo.jpeg') center center/cover no-repeat;
-		}
+		// &__photo {
+		// 	grid-row: 1/3;
+		// 	width: 100%;
+		// 	height: 100%;
+		// 	background: url('../../assets/img/Photo.jpeg') center center/cover no-repeat;
+		// }
 	}
 	.contacts {
 		&__wrapper {

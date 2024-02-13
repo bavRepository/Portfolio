@@ -9,12 +9,11 @@
 	}
 	&__photo {
 		grid-row: 1/3;
-		width: 100%;
-		height: 100%;
-		background-image: url('../../assets/img/Photo-1.jpeg');
-		background-position: center center;
-		background-size: cover;
-		background-repeat: no-repeat;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 	&__title,
 	&__subtitle {
@@ -50,5 +49,6 @@
 	}
 	#img-right-fix {
 		padding-left: 20px;
+		padding-top: 10px;
 	}
 }
